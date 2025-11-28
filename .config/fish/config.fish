@@ -11,5 +11,9 @@ alias with-proxy='env http_proxy=http://127.0.0.1:7890 https_proxy=http://127.0.
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
+if test -f ~/.config/fish/secrets/api_keys
+    source ~/.config/fish/secrets/api_keys
+end
+
 end
 
