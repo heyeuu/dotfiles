@@ -26,3 +26,6 @@ end
 if test -f ~/.config/fish/secrets/api_keys
     source ~/.config/fish/secrets/api_keys
 end
+
+# 自动切换Node版本
+fnm env --use-on-cd | source
