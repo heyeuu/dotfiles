@@ -1,9 +1,9 @@
 # 定义环境变量 (使用 -gx 确保全局且导出)
-set -gx http_proxy http://127.0.0.1:7890
-set -gx https_proxy http://127.0.0.1:7890
+# set -gx http_proxy http://127.0.0.1:7890
+# set -gx https_proxy http://127.0.0.1:7890
 
 # 定义 Alias
-alias with-proxy='env http_proxy=http://127.0.0.1:7890 https_proxy=http://127.0.0.1:7890 socks5_proxy=http://127.0.0.1:7890'
+# alias with-proxy='env http_proxy=http://127.0.0.1:7890 https_proxy=http://127.0.0.1:7890 socks5_proxy=http://127.0.0.1:7890'
 
 # 交互式会话专用配置
 if status is-interactive

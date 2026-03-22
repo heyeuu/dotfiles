@@ -26,10 +26,6 @@ if test -f /usr/bin/google-chrome-stable
     set -gx CHROME_EXECUTABLE /usr/bin/google-chrome-stable
 end
 
-# 6. 网络代理优化 (彻底消除 flutter doctor 的 NO_PROXY 警告)
-# 包含 IPv4 (127.0.0.1) 和 IPv6 (::1) 本地回环
-set -gx NO_PROXY "localhost,127.0.0.1,::1"
-
 # 在终端输入 'update-android-sdk' 即可自动补全缺失的平台镜像
 function update-android-sdk
     set -l sdk_bin /opt/android-sdk/cmdline-tools/latest/bin/sdkmanager
