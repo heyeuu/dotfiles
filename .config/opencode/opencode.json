@@ -6,13 +6,13 @@
   "provider": {
     "openai": {
       "options": {
-        "baseURL": "https://api.your-proxy-domain.com/v1",
+        "baseURL": "https://ai.rm-alliance.icu",
         "apiKey": "{env:OPENAI_API_KEY}"
       }
     },
     "anthropic": {
       "options": {
-        "baseURL": "https://api.hanbbq.top/v1",
+        "baseURL": "https://ai.rm-alliance.icu",
         "apiKey": "{env:ANTHROPIC_AUTH_TOKEN}"
       }
     }
