@@ -5,7 +5,7 @@
 local option = vim.opt
 
 -- Shell
-option.shell = "/usr/bin/fish"
+option.shell = "/usr/bin/zsh"
 
 -- For Text Edit
 option.wrap = true
